@@ -1,0 +1,71 @@
+Filled container. 
+Container contents 6 elements.
+0: It is feature film. Director is Lucas
+1: It is animation film. It's way of creation is drawing.
+2: It is animation film. It's way of creation is using dolls
+3: It is animation film. It's way of creation is stop motion
+4: It is feature film. Director is Scorsese
+5: It is feature film. Director is Spielberg
+Multimethod.
+Animation && feature
+0: It is feature film. Director is Lucas
+1: It is animation film. It's way of creation is drawing.
+
+Animation && feature
+0: It is feature film. Director is Lucas
+2: It is animation film. It's way of creation is using dolls
+
+Animation && feature
+0: It is feature film. Director is Lucas
+3: It is animation film. It's way of creation is stop motion
+
+Feature and feature
+0: It is feature film. Director is Lucas
+4: It is feature film. Director is Scorsese
+
+Feature and feature
+0: It is feature film. Director is Lucas
+5: It is feature film. Director is Spielberg
+
+Animation + animation
+1: It is animation film. It's way of creation is drawing.
+2: It is animation film. It's way of creation is using dolls
+
+Animation + animation
+1: It is animation film. It's way of creation is drawing.
+3: It is animation film. It's way of creation is stop motion
+
+Feature N' animation
+1: It is animation film. It's way of creation is drawing.
+4: It is feature film. Director is Scorsese
+
+Feature N' animation
+1: It is animation film. It's way of creation is drawing.
+5: It is feature film. Director is Spielberg
+
+Animation + animation
+2: It is animation film. It's way of creation is using dolls
+3: It is animation film. It's way of creation is stop motion
+
+Feature N' animation
+2: It is animation film. It's way of creation is using dolls
+4: It is feature film. Director is Scorsese
+
+Feature N' animation
+2: It is animation film. It's way of creation is using dolls
+5: It is feature film. Director is Spielberg
+
+Feature N' animation
+3: It is animation film. It's way of creation is stop motion
+4: It is feature film. Director is Scorsese
+
+Feature N' animation
+3: It is animation film. It's way of creation is stop motion
+5: It is feature film. Director is Spielberg
+
+Feature and feature
+4: It is feature film. Director is Scorsese
+5: It is feature film. Director is Spielberg
+
+Empty container. 
+Container contents 0 elements.
