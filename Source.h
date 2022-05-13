@@ -12,12 +12,6 @@ public:
 	virtual void MultiMethod(film* f2, ofstream &ofst) = 0;
 	virtual void MMFeat(ofstream &ofst) = 0;
 	virtual void MMAnim(ofstream& ofst) = 0;
-
-	//virtual film* showType(film* f2) = 0;
-
-	//virtual film* fAndFeat(feature* ff) = 0;
-	//virtual film* fAndAnim(animation* af) = 0;
-
 };
 class Node {
 public:
