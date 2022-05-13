@@ -1,21 +1,39 @@
 Filled container. 
-Container contents 6 elements.
-0: It is feature film. Director is Lucas
-1: It is animation film. It's way of creation is drawing.
-2: It is animation film. It's way of creation is using dolls
-3: It is animation film. It's way of creation is stop motion
-4: It is feature film. Director is Scorsese
-5: It is feature film. Director is Spielberg
+Container contents 8 elements.
+0: This is Star_Wars. It is feature film. Director is Lucas
+The picture was filmed in USA.
+Number of vowels = 2
+1: This is Cartoon1. It is animation film. It's way of creation is drawing.
+The picture was filmed in Japan.
+Number of vowels = 3
+2: This is Cartoon2aaa. It is animation film. It's way of creation is using dolls
+The picture was filmed in China.
+Number of vowels = 6
+3: This is Cartoon3aaaa. It is animation film. It's way of creation is stop motion
+The picture was filmed in Korea.
+Number of vowels = 7
+4: This is Goodfellas. It is feature film. Director is Scorsese
+The picture was filmed in USA.
+Number of vowels = 4
+5: This is Schindler's_List. It is feature film. Director is Spielberg
+The picture was filmed in USA.
+Number of vowels = 3
+6: This is Doc1oo. It is documentary film. It's year of creation is 1999
+The picture was filmed in Russia.
+Number of vowels = 3
+7: This is Doc2o. It is documentary film. It's year of creation is 2005
+The picture was filmed in Italy.
+Number of vowels = 2
 Multimethod.
-Animation && feature
+Feature && animation
 0: It is feature film. Director is Lucas
 1: It is animation film. It's way of creation is drawing.
 
-Animation && feature
+Feature && animation
 0: It is feature film. Director is Lucas
 2: It is animation film. It's way of creation is using dolls
 
-Animation && feature
+Feature && animation
 0: It is feature film. Director is Lucas
 3: It is animation film. It's way of creation is stop motion
 
@@ -27,45 +45,97 @@ Feature and feature
 0: It is feature film. Director is Lucas
 5: It is feature film. Director is Spielberg
 
-Animation + animation
-1: It is animation film. It's way of creation is drawing.
-2: It is animation film. It's way of creation is using dolls
+Feature with documentary
+0: It is feature film. Director is Lucas
+6: It is documentary film. It's year of creation is 1999
+
+Feature with documentary
+0: It is feature film. Director is Lucas
+7: It is documentary film. It's year of creation is 2005
 
 Animation + animation
 1: It is animation film. It's way of creation is drawing.
+2: It is animation film. It's way of creation is using dolls
+
+Animation + animation
+1: It is animation film. It's way of creation is drawing.
 3: It is animation film. It's way of creation is stop motion
 
-Feature N' animation
+Animation N' feature
 1: It is animation film. It's way of creation is drawing.
 4: It is feature film. Director is Scorsese
 
-Feature N' animation
+Animation N' feature
 1: It is animation film. It's way of creation is drawing.
 5: It is feature film. Director is Spielberg
+
+Animation w/ documentary
+1: It is animation film. It's way of creation is drawing.
+6: It is documentary film. It's year of creation is 1999
+
+Animation w/ documentary
+1: It is animation film. It's way of creation is drawing.
+7: It is documentary film. It's year of creation is 2005
 
 Animation + animation
 2: It is animation film. It's way of creation is using dolls
 3: It is animation film. It's way of creation is stop motion
 
-Feature N' animation
+Animation N' feature
 2: It is animation film. It's way of creation is using dolls
 4: It is feature film. Director is Scorsese
 
-Feature N' animation
+Animation N' feature
 2: It is animation film. It's way of creation is using dolls
 5: It is feature film. Director is Spielberg
 
-Feature N' animation
+Animation w/ documentary
+2: It is animation film. It's way of creation is using dolls
+6: It is documentary film. It's year of creation is 1999
+
+Animation w/ documentary
+2: It is animation film. It's way of creation is using dolls
+7: It is documentary film. It's year of creation is 2005
+
+Animation N' feature
 3: It is animation film. It's way of creation is stop motion
 4: It is feature film. Director is Scorsese
 
-Feature N' animation
+Animation N' feature
 3: It is animation film. It's way of creation is stop motion
 5: It is feature film. Director is Spielberg
+
+Animation w/ documentary
+3: It is animation film. It's way of creation is stop motion
+6: It is documentary film. It's year of creation is 1999
+
+Animation w/ documentary
+3: It is animation film. It's way of creation is stop motion
+7: It is documentary film. It's year of creation is 2005
 
 Feature and feature
 4: It is feature film. Director is Scorsese
 5: It is feature film. Director is Spielberg
+
+Feature with documentary
+4: It is feature film. Director is Scorsese
+6: It is documentary film. It's year of creation is 1999
+
+Feature with documentary
+4: It is feature film. Director is Scorsese
+7: It is documentary film. It's year of creation is 2005
+
+Feature with documentary
+5: It is feature film. Director is Spielberg
+6: It is documentary film. It's year of creation is 1999
+
+Feature with documentary
+5: It is feature film. Director is Spielberg
+7: It is documentary film. It's year of creation is 2005
+
+Documentary AND documentary
+6: It is documentary film. It's year of creation is 1999
+7: It is documentary film. It's year of creation is 2005
 
 Empty container. 
 Container contents 0 elements.
